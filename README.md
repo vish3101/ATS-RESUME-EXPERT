@@ -78,7 +78,8 @@ streamlit run extended_ats.py
 ats-gemini-project/
 ├── app.py                # Resume parsed via raw bytes
 ├── extended_ats.py       # Resume parsed via direct PyPDF2 text extraction
-├── .env                  # API key file (not committed)
+├── .env
+|── requirements.txt              # API key file (not committed)
 └── README.md             # Project overview and setup
 ```
 
